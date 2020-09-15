@@ -1,3 +1,6 @@
 # the simplest thing that could be done
-# output 25 mpg value to kpl 
-print(25 * 1.609344 * .2641720524)
+# ask the user to input an mpg value 
+mpg = input("What is the MPG")
+# convert the imput into a numeric value
+mpg = float(mpg)
+print(mpg * 1.609344 * .2641720524)
